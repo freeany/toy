@@ -1,12 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <svg>
+      <use xlink:href="#icon-wx"></use>
+    </svg> -->
+    <svg-icon icon-class="wx"></svg-icon>
+    <svg-icon icon-class="q"></svg-icon>
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import './assets/icons/wx.svg'
+import HelloWorld from 'comps/HelloWorld.vue'
 
 export default {
   name: 'App',
